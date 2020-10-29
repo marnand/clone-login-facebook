@@ -1,0 +1,153 @@
+.App {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+
+  box-sizing: border-box;
+
+  margin: auto;
+  padding: 150px 100px;
+  position: relative;
+
+  display: flex;
+
+  background: #f0f2f5;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+
+  padding: 60px;
+  width: 50vw;
+
+  font-size: 28px;
+}
+
+.left img {
+  width: 300px;
+
+  margin: -28px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50vw;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  width: 365px;
+  height: 300px;
+
+  padding: 20px 18px 28px;
+
+  border-radius: 8px;
+  border: none;
+
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+
+  text-align: center;
+
+  background-color: #fff;
+}
+
+input {
+  padding: 14px 16px;
+  margin-bottom: 15px;
+
+  font-size: 17px;
+
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+
+  /* outline-style: none; */
+}
+
+button {
+  padding: 14px 16px;
+  margin-bottom: 20px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  border-radius: 6px;
+  border: none;
+
+  cursor: pointer;
+
+  opacity: 0.9;
+  transition: 0.3s ease;
+
+  background-color: #1877f2;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.form a {
+  color: #1877f2;
+
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+.form a:hover {
+  text-decoration: underline;
+}
+
+.hr {
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 20px 6px;
+  text-align: center;
+}
+
+.form .btn {
+  padding: 14px;
+  width: 150px;
+
+  margin: 0 auto;
+
+  font-size: 17px;
+  font-weight: bold;
+
+  border-radius: 6px;
+  border: none;
+
+  background-color: #42b72a;
+  color: #fff;
+}
+
+.form .btn:hover {
+  text-decoration: none;
+  background-color: #36a420;
+}
+
+.link {
+  margin-top: 28px;
+
+  font-size: 14px;
+}
+
+.link a {
+  color: #000;
+
+  font-weight: bold;
+  
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
